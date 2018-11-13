@@ -1,0 +1,15 @@
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\bin\Debug\UniManagementSys.exe.config
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\bin\Debug\UniManagementSys.exe
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\bin\Debug\UniManagementSys.pdb
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.csprojResolveAssemblyReference.cache
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.Properties.Resources.resources
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.csproj.GenerateResource.Cache
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.exe
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.pdb
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.MainForm.resources
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AdminForm.resources
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddStudent.resources
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddFaculty.resources
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddCourse.resources
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.CourseOffering.resources
+D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.CourseSection.resources
