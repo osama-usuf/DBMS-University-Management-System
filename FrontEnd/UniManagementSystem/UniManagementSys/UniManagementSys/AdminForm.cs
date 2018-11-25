@@ -31,8 +31,7 @@ namespace UniManagementSys
 
         private void button10_Click(object sender, EventArgs e)
         {
-            DbConnection view = new DbConnection();
-            dataGridView1.DataSource = view.Select("SELECT * FROM Course");
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -59,8 +58,8 @@ namespace UniManagementSys
 
         private void button5_Click(object sender, EventArgs e)
         {
-            DbConnection view = new DbConnection();
-            dataGridView1.DataSource = view.Select("SELECT * FROM Faculty, Address WHERE Address_AddressID = AddressID");
+            ViewFaculty viewFac = new ViewFaculty();
+            viewFac.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -91,6 +90,60 @@ namespace UniManagementSys
         {
             CourseSection courseSec = new CourseSection();
             courseSec.Show();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            AddCourseEnrollment enroll = new AddCourseEnrollment();
+            enroll.Show();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            AddDepartment addDepart = new AddDepartment();
+            addDepart.Show();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            AddSemester addSeme = new AddSemester();
+            addSeme.Show();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            AddDesignation addDesi = new AddDesignation();
+            addDesi.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            AddSemesterEnrollment addSSE = new AddSemesterEnrollment();
+            addSSE.Show();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            DbConnection view = new DbConnection();
+            dataGridView1.DataSource = view.Select("SELECT * FROM Department");
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            DbConnection view = new DbConnection();
+            dataGridView1.DataSource = view.Select("SELECT * FROM Semester");
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            DbConnection view = new DbConnection();
+            dataGridView1.DataSource = view.Select("SELECT * FROM CourseSection");
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            ViewCourse cDetails = new ViewCourse();
+            cDetails.Show();
         }
     }
 }

@@ -13,3 +13,46 @@ D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\U
 D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddCourse.resources
 D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.CourseOffering.resources
 D:\Osama's stuff\Sem 5\CS 355 - Databases\Project\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.CourseSection.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\bin\Debug\UniManagementSys.exe.config
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\bin\Debug\UniManagementSys.exe
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\bin\Debug\UniManagementSys.pdb
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.csprojAssemblyReference.cache
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddCourse.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AdminForm.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddStudent.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddFaculty.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.CourseOffering.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.CourseSection.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.MainForm.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.Properties.Resources.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.csproj.GenerateResource.cache
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.csproj.CoreCompileInputs.cache
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.exe
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.pdb
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.EnrollStudent.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddDepartment.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddSemester.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddDesignation.resources
+C:\Users\Saba Iqbal\Desktop\DBMS-University-Management-System-master\DBMS-University-Management-System-master\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddSSE.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\bin\Debug\UniManagementSys.exe.config
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\bin\Debug\UniManagementSys.exe
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\bin\Debug\UniManagementSys.pdb
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.csprojResolveAssemblyReference.cache
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddCourse.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AdminForm.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddStudent.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddFaculty.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.CourseOffering.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.CourseSection.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddDepartment.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddSemester.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddDesignation.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.MainForm.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.Properties.Resources.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.csproj.GenerateResource.Cache
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.exe
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.pdb
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.ViewCourse.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.ViewFaculty.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddSemesterEnrollment.resources
+C:\Users\Osama\Desktop\DBMS-University-Management-System\FrontEnd\UniManagementSystem\UniManagementSys\UniManagementSys\obj\Debug\UniManagementSys.AddCourseEnrollment.resources

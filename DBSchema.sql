@@ -1,6 +1,5 @@
-CREATE Database UniManagement;
-USE UniManagement;
-
+Create DATABASE UniManagement;
+Use UniManagement;
 CREATE TABLE Semester (
   SemesterID INTEGER NOT NULL,
   [Name] VARCHAR(255) NOT NULL,
@@ -92,6 +91,7 @@ CREATE TABLE Student_Semester_Enrolment (
   Student_StudentID INTEGER  NOT NULL,
   Semester_SemesterID INTEGER  NOT NULL,
   SGPA FLOAT NULL,
+  Credits FLOAT NOT NULL,
   PRIMARY KEY(Student_StudentID, Semester_SemesterID),
   FOREIGN KEY(Student_StudentID)
     REFERENCES Student(StudentID)
@@ -180,23 +180,10 @@ CREATE TABLE Faculty_Designation (
       ON UPDATE NO ACTION
 );
 
-CREATE TABLE SemesterGradeReport (
-  SemesterGradeReportID INTEGER  NOT NULL ,
-  Student_Semester_Enrolment_Semester_SemesterID INTEGER  NOT NULL,
-  Student_Semester_Enrolment_Student_StudentID INTEGER  NOT NULL,
-  PRIMARY KEY(SemesterGradeReportID, Student_Semester_Enrolment_Semester_SemesterID, Student_Semester_Enrolment_Student_StudentID),
-  FOREIGN KEY(Student_Semester_Enrolment_Student_StudentID, Student_Semester_Enrolment_Semester_SemesterID)
-    REFERENCES Student_Semester_Enrolment(Student_StudentID, Semester_SemesterID)
-      ON DELETE NO ACTION
-      ON UPDATE NO ACTION
-);
 
 CREATE TABLE Student_Course_Enrolment (
   Student_StudentID INTEGER  NOT NULL,
   CourseSection_CourseSectionID INTEGER  NOT NULL,
-  SemesterGradeReport_Student_Semester_Enrolment_Student_StudentID INTEGER  NOT NULL,
-  SemesterGradeReport_Student_Semester_Enrolment_Semester_SemesterID INTEGER  NOT NULL,
-  SemesterGradeReport_SemesterGradeReportID INTEGER  NOT NULL,
   GPA VARCHAR(255) NULL,
   PRIMARY KEY(Student_StudentID, CourseSection_CourseSectionID),
   FOREIGN KEY(Student_StudentID)
@@ -207,9 +194,5 @@ CREATE TABLE Student_Course_Enrolment (
     REFERENCES CourseSection(CourseSectionID)
       ON DELETE NO ACTION
       ON UPDATE NO ACTION,
-  FOREIGN KEY(SemesterGradeReport_SemesterGradeReportID, SemesterGradeReport_Student_Semester_Enrolment_Semester_SemesterID, SemesterGradeReport_Student_Semester_Enrolment_Student_StudentID)
-    REFERENCES SemesterGradeReport(SemesterGradeReportID, Student_Semester_Enrolment_Semester_SemesterID, Student_Semester_Enrolment_Student_StudentID)
-      ON DELETE NO ACTION
-      ON UPDATE NO ACTION
 );
 

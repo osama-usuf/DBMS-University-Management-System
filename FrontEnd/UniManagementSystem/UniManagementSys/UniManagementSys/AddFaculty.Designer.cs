@@ -64,6 +64,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -95,6 +97,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(317, 201);
             this.panel2.TabIndex = 15;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // textBox7
             // 
@@ -187,6 +190,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(317, 201);
             this.panel1.TabIndex = 14;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label6
             // 
@@ -293,13 +297,15 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(78, 43);
+            this.textBox8.Location = new System.Drawing.Point(90, 41);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(200, 20);
             this.textBox8.TabIndex = 12;
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.label18);
+            this.panel4.Controls.Add(this.textBox9);
             this.panel4.Controls.Add(this.label15);
             this.panel4.Controls.Add(this.button1);
             this.panel4.Controls.Add(this.textBox8);
@@ -310,6 +316,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(317, 201);
             this.panel4.TabIndex = 18;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // label16
             // 
@@ -323,9 +330,10 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(78, 69);
+            this.listBox2.Location = new System.Drawing.Point(90, 67);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(200, 95);
+            this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.listBox2.Size = new System.Drawing.Size(200, 69);
             this.listBox2.TabIndex = 11;
             // 
             // label17
@@ -350,6 +358,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(317, 201);
             this.panel3.TabIndex = 18;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // checkBox1
             // 
@@ -407,7 +416,24 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(200, 21);
             this.comboBox3.TabIndex = 6;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             this.comboBox3.DropDownClosed += new System.EventHandler(this.comboBox3_DropDownClosed);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(4, 144);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(80, 13);
+            this.label18.TabIndex = 18;
+            this.label18.Text = "Contract Years:";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(90, 142);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(200, 20);
+            this.textBox9.TabIndex = 19;
             // 
             // AddFaculty
             // 
@@ -471,5 +497,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox textBox9;
     }
 }

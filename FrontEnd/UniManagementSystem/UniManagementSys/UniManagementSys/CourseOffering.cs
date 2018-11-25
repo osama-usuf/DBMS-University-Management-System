@@ -43,7 +43,6 @@ namespace UniManagementSys
             if (temp.Rows.Count == 0)
             {
                 query = "INSERT INTO CourseOffering VALUES (" + newOfferID + "," + comboBox2.SelectedValue + ",'" + comboBox1.SelectedValue + "')";
-                MessageBox.Show(query);
                 load.Inserts(query);
                 MessageBox.Show("Offering Created!");
             }
@@ -51,6 +50,11 @@ namespace UniManagementSys
             {
                 MessageBox.Show("Offering Already Exists!");
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
