@@ -36,8 +36,11 @@ namespace UniManagementSys
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DbConnection view = new DbConnection();
-            dataGridView1.DataSource = view.Select("SELECT * FROM Student, Address WHERE Address_AddressID = AddressID");
+            ViewStudent viewStd = new ViewStudent();
+            viewStd.Show();
+
+            //DbConnection view = new DbConnection();
+            //dataGridView1.DataSource = view.Select("SELECT * FROM Student, Address WHERE Address_AddressID = AddressID");
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -82,9 +85,9 @@ namespace UniManagementSys
 
         private void button13_Click(object sender, EventArgs e)
         {
-            DbConnection view = new DbConnection();
-            dataGridView1.DataSource = view.Select("SELECT * FROM CourseOffering,Course,Semester WHERE SemesterID = Semester_SemesterID AND CourseID = Course_CourseID");
-        }
+            ViewOfferings vOffer = new ViewOfferings();
+            vOffer.Show();
+         }
 
         private void button7_Click(object sender, EventArgs e)
         {
@@ -124,20 +127,22 @@ namespace UniManagementSys
 
         private void button20_Click(object sender, EventArgs e)
         {
-            DbConnection view = new DbConnection();
-            dataGridView1.DataSource = view.Select("SELECT * FROM Department");
+            ViewDepartment vDept = new ViewDepartment();
+            vDept.Show();
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            DbConnection view = new DbConnection();
-            dataGridView1.DataSource = view.Select("SELECT * FROM Semester");
+            ViewExistingSemester vES = new ViewExistingSemester();
+            vES.Show();
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            DbConnection view = new DbConnection();
-            dataGridView1.DataSource = view.Select("SELECT * FROM CourseSection");
+            //DbConnection view = new DbConnection();
+            //dataGridView1.DataSource = view.Select("SELECT * FROM CourseSection");
+            ViewSections vSec = new ViewSections();
+            vSec.Show();
         }
 
         private void button23_Click(object sender, EventArgs e)

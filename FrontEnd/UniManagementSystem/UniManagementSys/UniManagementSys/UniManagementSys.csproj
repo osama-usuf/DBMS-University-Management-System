@@ -57,6 +57,85 @@
     <Compile Include="AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FacultyPortal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacultyPortal.Designer.cs">
+      <DependentUpon>FacultyPortal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyPortalLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacultyPortalLogin.Designer.cs">
+      <DependentUpon>FacultyPortalLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseSemester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseSemester.Designer.cs">
+      <DependentUpon>ChooseSemester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewStudentPortalSemester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewStudentPortalSemester.Designer.cs">
+      <DependentUpon>ViewStudentPortalSemester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonalDetails.Designer.cs">
+      <DependentUpon>PersonalDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grade.Designer.cs">
+      <DependentUpon>Grade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Variables.cs" />
+    <Compile Include="StudentPortal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentPortal.Designer.cs">
+      <DependentUpon>StudentPortal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPortalLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentPortalLogin.Designer.cs">
+      <DependentUpon>StudentPortalLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewExistingSemester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewExistingSemester.Designer.cs">
+      <DependentUpon>ViewExistingSemester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDepartment.Designer.cs">
+      <DependentUpon>ViewDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSections.Designer.cs">
+      <DependentUpon>ViewSections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewOfferings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewOfferings.Designer.cs">
+      <DependentUpon>ViewOfferings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewStudent.Designer.cs">
+      <DependentUpon>ViewStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewCourse.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +223,42 @@
     <EmbeddedResource Include="AddFaculty.resx">
       <DependentUpon>AddFaculty.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FacultyPortal.resx">
+      <DependentUpon>FacultyPortal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyPortalLogin.resx">
+      <DependentUpon>FacultyPortalLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseSemester.resx">
+      <DependentUpon>ChooseSemester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grade.resx">
+      <DependentUpon>Grade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalDetails.resx">
+      <DependentUpon>PersonalDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentPortal.resx">
+      <DependentUpon>StudentPortal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentPortalLogin.resx">
+      <DependentUpon>StudentPortalLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDepartment.resx">
+      <DependentUpon>ViewDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewExistingSemester.resx">
+      <DependentUpon>ViewExistingSemester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewOfferings.resx">
+      <DependentUpon>ViewOfferings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSections.resx">
+      <DependentUpon>ViewSections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewStudent.resx">
+      <DependentUpon>ViewStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewCourse.resx">
       <DependentUpon>ViewCourse.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +297,9 @@
     </Compile>
     <EmbeddedResource Include="ViewFaculty.resx">
       <DependentUpon>ViewFaculty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewStudentPortalSemester.resx">
+      <DependentUpon>ViewStudentPortalSemester.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

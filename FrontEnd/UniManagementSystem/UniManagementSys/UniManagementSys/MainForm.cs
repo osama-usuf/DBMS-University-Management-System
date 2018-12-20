@@ -28,5 +28,25 @@ namespace UniManagementSys
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            StudentPortalLogin spl = new StudentPortalLogin(this);
+            spl.Show();
+            this.Hide();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FacultyPortalLogin fpl = new FacultyPortalLogin(this);
+            fpl.Show();  
+            this.Hide();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

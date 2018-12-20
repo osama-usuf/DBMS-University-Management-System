@@ -83,7 +83,7 @@ namespace UniManagementSys
                 add.Inserts(query);
                 MessageBox.Show("Student Enrolled!");
             }
-            catch (Exception er)
+            catch (Exception)
             {
                 MessageBox.Show("Cannot enroll in already enrolled section/Correct errors in the form!");
                 return;
@@ -188,7 +188,7 @@ namespace UniManagementSys
 
             query = "SELECT * FROM Student_Semester_Enrolment WHERE Student_StudentID = "+comboBox1.SelectedValue+" AND Semester_SemesterID = " + comboBox2.SelectedValue;
             temp = load.Select(query);
-            MessageBox.Show(query);
+           // MessageBox.Show(query);
             if (temp.Rows.Count == 0) return;
             textBox1.Text = temp.Rows[0][3].ToString();
         }
