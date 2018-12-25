@@ -50,7 +50,6 @@ namespace UniManagementSys
 
         private void button12_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = null;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -139,8 +138,6 @@ namespace UniManagementSys
 
         private void button22_Click(object sender, EventArgs e)
         {
-            //DbConnection view = new DbConnection();
-            //dataGridView1.DataSource = view.Select("SELECT * FROM CourseSection");
             ViewSections vSec = new ViewSections();
             vSec.Show();
         }

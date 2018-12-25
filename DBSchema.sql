@@ -196,3 +196,43 @@ CREATE TABLE Student_Course_Enrolment (
       ON UPDATE NO ACTION,
 );
 
+--Stored Procedures
+
+GO
+CREATE PROCEDURE FacultySemesterSearch @ID int AS
+SELECT * FROM Semester,(
+SELECT SemesterID FROM CourseSection, CourseOffering, Semester WHERE Faculty_FacultyID = @ID AND 
+CourseOffering_CourseOfferingID = CourseOfferingID AND Semester_SemesterID = SemesterID GROUP BY SemesterID) AS temp
+WHERE Semester.SemesterID = temp.SemesterID;
+GO
+
+
+GO
+CREATE PROCEDURE FacultySemCourseSearch @ID int, @SemID int AS
+SELECT * FROM Course,(
+SELECT DISTINCT Course_CourseID FROM CourseOffering, CourseSection WHERE CourseOffering_CourseOfferingID 
+= CourseOfferingID AND Faculty_FacultyID = @ID AND Semester_SemesterID = @SemID) AS temp
+WHERE CourseID = Course_CourseID
+GO
+
+--Views & Triggers
+
+GO
+CREATE VIEW GPA AS
+SELECT SE.Student_StudentID, SE.Semester_SemesterID, sum(CONVERT(FLOAT,GPA))/count(*) [CalcGPA]
+FROM 
+CourseSection, CourseOffering CO, Semester, Student_Course_Enrolment CE, Student_Semester_Enrolment SE
+WHERE CourseOffering_CourseOfferingID = CourseOfferingID 
+AND SemesterID = CO.Semester_SemesterID AND CourseSection_CourseSectionID = CourseSectionID 
+AND CO.Semester_SemesterID = SE.Semester_SemesterID
+AND CE.Student_StudentID = SE.Student_StudentID
+GROUP BY SE.Student_StudentID, SE.Semester_SemesterID
+
+GO
+CREATE TRIGGER UpdateSGPA ON Student_Course_Enrolment
+AFTER UPDATE AS
+UPDATE Student_Semester_Enrolment
+SET SGPA = GPA.CalcGPA
+FROM Student_Semester_Enrolment SE, GPA
+WHERE SE.Student_StudentID = GPA.Student_StudentID AND GPA.Semester_SemesterID = SE.Semester_SemesterID
+GO

@@ -40,8 +40,6 @@ namespace UniManagementSys
                     checkBox1.Checked = false;
                     textBox1.Text = "";
                 }
-
-            
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -57,6 +57,12 @@
     <Compile Include="AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FacultyPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacultyPersonal.Designer.cs">
+      <DependentUpon>FacultyPersonal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FacultyPortal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,12 @@
     </Compile>
     <Compile Include="ChooseSemester.Designer.cs">
       <DependentUpon>ChooseSemester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacultySemester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacultySemester.Designer.cs">
+      <DependentUpon>FacultySemester.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewStudentPortalSemester.cs">
       <SubType>Form</SubType>
@@ -223,6 +235,9 @@
     <EmbeddedResource Include="AddFaculty.resx">
       <DependentUpon>AddFaculty.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FacultyPersonal.resx">
+      <DependentUpon>FacultyPersonal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FacultyPortal.resx">
       <DependentUpon>FacultyPortal.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChooseSemester.resx">
       <DependentUpon>ChooseSemester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultySemester.resx">
+      <DependentUpon>FacultySemester.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Grade.resx">
       <DependentUpon>Grade.cs</DependentUpon>

@@ -25,11 +25,29 @@ namespace UniManagementSys
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        {/*
             Variables.fid = textBox1.Text.ToString();
-            FacultyPortal fp = new FacultyPortal();
+            FacultyPersonal fp = new FacultyPersonal();
             fp.Show();
             this.Hide();
+        */
+            try
+            {
+                Variables.fid = textBox1.Text.ToString();
+                DbConnection load = new DbConnection();
+                string query = "SELECT * FROM Faculty, [Address] WHERE Address_AddressID = AddressID AND FacultyID = " + Variables.fid;
+                DataTable temp = load.Select(query);
+                if (temp.Rows.Count == 0) { MessageBox.Show("INVALID ID"); }
+                else
+                {
+                    FacultyPortal sp = new FacultyPortal();
+                    sp.Show();
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Please Enter Correct Login Details."); return;
+            }
         }
 
         private void FacultyPortalLogin_Load(object sender, EventArgs e)
